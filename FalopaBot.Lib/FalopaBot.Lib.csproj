@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.1.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Alpha.Utilidades.General">
+      <HintPath>D:\Dager\Cosas\Stuff\AS\CS and Prog\DLL\Alpha.Utilidades.General.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
