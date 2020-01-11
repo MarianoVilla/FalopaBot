@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FalopaBot.ConsoleApp", "Fal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FalopaBot.Lib", "FalopaBot.Lib\FalopaBot.Lib.csproj", "{03676570-1C1C-4348-8F5A-BE8893C868B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalopaBot.Tests", "FalopaBot.Tests\FalopaBot.Tests.csproj", "{33D07C85-41E7-446E-B71A-58B367FCDBDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FalopaBot.Tests", "FalopaBot.Tests\FalopaBot.Tests.csproj", "{33D07C85-41E7-446E-B71A-58B367FCDBDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -16,7 +16,13 @@ namespace FalopaBot.Lib.Modules
         /// <param name="Echo">The string to echo</param>
         [Command("say")]
         public Task SayAsync([Remainder] string Echo)
-            => ReplyAsync(Echo);
+            => ReplyAsync('\u200B' + Echo);
+
+        [Command("ping")]
+        public async Task Ping()
+        {
+            await ReplyAsync($"👋 pong, {Context.User.Mention}!");
+        }
 
         /// <summary>
         /// Gives the user info for the given SocketUser, or the CurrentUser.
